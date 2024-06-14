@@ -1,0 +1,338 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    width: 12.5%;
+    height: 100vh;
+    color: white;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+
+section {
+    width: 87.5%;
+}
+
+#txt1 {
+    font-weight: bold;
+    font-family: "quicksand";
+    font-size: 20px;
+    padding-bottom: 35.5px;
+}
+
+#welcome {
+    background-image: url(imgs/img_9.jpg\ \.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#welcome>div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: brightness(60%);
+
+}
+
+.txtWelcome {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: "Oswald";
+}
+#display {
+    display: flex;
+}
+
+.txt {
+    font-size: 12.8px;
+    font-family: "quicksand";
+    color: white;
+    text-decoration: none;
+}
+
+.Lorem {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-weight: lighter;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.logotwi {
+    width: 12px;
+    height: 13px;
+    padding-left: 17px;
+    padding-right: 20px;
+    padding-top: 36px;
+}
+
+.logoface {
+    width: 12px;
+    height: 13px;
+    padding-right: 7px;
+    padding-top: 36px;
+}
+
+.logoinst {
+    width: 12px;
+    height: 13px;
+    padding-top: 36px;
+}
+ button {
+    color: white;
+    font-size: 14px;
+    background-color:#df0e62;
+    border-color: #df0e62;
+    border-radius: 25px;
+    margin-top: 2%;
+    width: 163px;
+    height: 53px;
+    text-align: center;
+    justify-content: center;
+ }
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    row-gap: 6px;
+}
+
+.imagens div{
+    width: 33%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagens img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#testititulo {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    background-color: black;
+    font-family: "Oswald";
+}
+
+.imagens img:hover {filter: brightness(50%);}
+
+#testimonial {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#Person2 {
+    border-radius: 1000px;
+    height: 17vh;
+    width: auto;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#txtP2 {
+    color: white;
+    margin-top: 1%;
+    font-family: "quicksand";
+    font-weight: bold;
+}
+
+#LoremP2 {
+    margin-top: 1%;
+    width: 43%;
+    color: rgba(134, 134, 134, 0.925);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 8%;
+    font-family: "quicksand";
+}
+
+#AllBiography {
+    background-color: #1a1a1a;
+    display: flex; 
+    justify-content: center;
+    
+    flex-direction: column;
+    padding-left: 30%;
+}
+
+#Person3 {
+    width: 35%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#txt3 {
+    font-size: 60px;
+    color: white;
+    margin-top: 110px;
+    padding-top: 1%;
+    font-family: "Oswald";
+}
+
+#biography {
+    justify-content: center;
+}
+
+.Titulo {
+    color: white;
+    font-size: 30px;
+    margin-top: 4%;
+    font-family: "Oswald";
+}
+
+.texto {
+    color: rgba(134, 134, 134, 0.925);
+    font-size: 15px;
+    width: 65%;
+    margin-top: 1%;
+    font-family: "quicksand";
+}
+
+#check {
+    width: 2.5%;
+    height: auto;
+    margin-right: 1%;
+}
+
+.li {
+    color: rgba(134, 134, 134, 0.925);
+    font-size: 15px;
+    font-family: "quicksand";
+}
+
+#Blog {
+    margin-left: 30%;
+    
+}
+
+#blog {
+    color: white;
+    font-family: "oswald";
+    font-size: 60px;
+    text-align: start;
+    margin-bottom: 4%;
+    margin-top: 6%;
+}
+
+#blog1 {
+    width: 250px;
+    height: 200px;
+    padding-right: 2.5%;
+}
+#secg{background-color: #1a1a1a; 
+    height: 1000px;display: flex; 
+    flex-direction: column; width: 100%;
+     height: 150vh;}
+
+#idb{color: white; font-size: 100px; margin-left: 40vh;margin-top: 8vh;}
+
+#dp2{width: 300px;margin-left: 40vh; margin-top: 70px;}
+
+#divhi{color: white;font-size: 50px; margin-left: 40vh;margin-top: 3vh;}
+
+#divl2{ color: gray;font-size: 18px;margin-left: 40vh;}
+
+.dl2{margin-top: 1vh;}
+
+.dl3{margin-top: 2vh;}
+
+.divcorrect{display: flex;justify-content: space-evenly;margin-right: 90vh;}
+
+#svg4{fill: green;
+width: 20px;}
+
+.divcorrectp{margin-top: 7vh;}
+
+.divcorrectl{margin-top: 2vh;}
+
+#divb{ margin-left: 40vh ; color: white; margin-top: 20vh; font-size: 40px;}
+
+#divimagem{margin-left: 39vh;}
+
+#imm{width: 230px; object-fit: cover;}
+
+#divc{margin-top: 7vh; }
+
+#divc{display:flex ;}
+
+#divtexto{color: white; width: 70vh;height: 5vh; margin-left: 50px;}
+
+#dd1{font-size: 20px;}
+
+#dd2{font-size: 15px;margin-top: 1.5vh;color: gray;}
+
+#dd3{font-size: 15px;margin-top: 0.5vh;color: gray;}
+
+#dd4{font-size: 15px;margin-top: 0.3vh;color: gray;}
+
+#divn{margin-top: 15vh; color: white;display: flex;;margin-right: 15vh; gap: 30px; justify-content: center; color: #BB0C52;height: 20vh;}
+
+#secg2{width: 100%; height: 110vh; background-color: #1a1a1a;display: flex; flex-direction: column;border-top: 10vh;}
+
+#divcontact{margin-left: 39vh ; margin-top: 14vh;color: white;font-size: 40px;}
+
+#cc1{font-size: 20px;margin-top: 4.5vh;color: white;margin-left: 39vh ;}
+
+#dfc{display: flex;}
+
+#divemail{
+    font-size: 20px;
+    margin-top: 4.5vh;
+    color: white;
+    margin-left: 39vh ;}
+
+#cc2{
+    font-size: 20px;
+    margin-top: 4.5vh;
+    color: grey;margin-left: 39vh ;}
+
+
+#cc3{
+    font-size: 20px;
+    margin-top: 15vh;
+    color: white;
+    margin-left: 39vh ;}
+
+.button1{
+    border-radius: 30px;
+    height: 50px;
+    width: 180px;
+    background-color: #df0e62;
+    border-color: #df0e62;}
+    
+#button1:hover {
+    background-color: #BB0C52;
+    border-color: #BB0C52;}
+
+#cc4{font-size: 15px;
+    margin-top: 4.5vh;
+    color: white;
+    margin-left: 39vh ;}
+
+#cc5{font-size: 17px;
+    margin-top: 4.5vh;
+    color: white;
+    margin-left: 55vh ;}
+
+#divespaco{width: 50vh;
+     height: 5vh;}
